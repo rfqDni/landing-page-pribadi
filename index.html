@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page — Rafiq Ahmadani Harahap</title>
+    <meta name="description" content="Landing page pribadi Rafiq.">
+</head>
+<body>
+
+    <header>
+        <h1>Rafiq Ahmadani Harahap</h1>
+        <p>Mahasiswa Ilmu Komputer, Universitas Negeri Medan</p>
+
+        <nav>
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#biodata">Biodata</a>
+            <a href="#pendidikan">Riwayat Pendidikan</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Halo perkenalkan saya Rafiq Ahmadani Harahap, saya adalah seorang mahasiswa di Universitas Negeri Medan.</p>
+    </section>
+
+    <hr>
+
+    <section id="biodata">
+        <h2>Biodata</h2>
+
+        <ul>
+            <li><strong>Nama:</strong> Rafiq Ahmadani Harahap</li>
+            <li><strong>Tempat, Tanggal Lahir:</strong> Medan, <time datetime="2007-07-17">17 Juli 2007</time></li>
+            <li><strong>Domisili:</strong> Jl. Mesjid Taufik</li>
+            <li><strong>Agama:</strong> Islam</li>
+            <li><strong>Jenis Kelamin:</strong> Laki-laki</li>
+            <li><strong>Hobi:</strong> Gamers, Fotografi</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="pendidikan">
+        <h2>Riwayat Pendidikan</h2>
+
+        <ol>
+            <li><strong>SD:</strong> SD Negeri 060875 Mdan</li>
+            <li><strong>SMP:</strong> SMP Negeri 14 Medan</li>
+            <li><strong>SMA:</strong> SMA Negeri 7 Medan</li>
+            <li><strong>Kuliah:</strong> Universitas Negeri Medan - Ilmu Komputer</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="kontak">
+        <h2>Hubungi Saya</h2>
+
+        <form action="#" method="post">
+
+            <div>
+                <label for="nama">Nama Lengkap <span style="color:red;">*</span></label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required minlength="3" size="40">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email <span style="color:red;">*</span></label><br>
+                <input type="email" id="email" name="email" placeholder="email@anda.com" required size="40">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="tanggal">Tanggal</label><br>
+                <input type="date" id="tanggal" name="tanggal" value="2026-08-26">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="warna">Warna Favorit</label><br>
+                <input type="color" id="warna" name="warna" value="#2563eb">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pesan">Pesan <span style="color:red;">*</span></label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="40" placeholder="Tulis pesan Anda..." required minlength="5"></textarea>
+            </div>
+
+            <br>
+
+            <!-- Tombol Kirim -->
+            <button type="submit">Kirim Pesan</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
